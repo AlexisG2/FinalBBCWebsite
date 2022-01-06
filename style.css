@@ -112,20 +112,20 @@ header{
 }
 
 .firstArticle{
-    height: 100%;
-    width: 33%;
+    height: 95%;
+    width: 30%;
     border: 2px solid blue;
 }
 
 .secondArticle{
-    height: 100%;
-    width: 33%;
+    height: 95%;
+    width: 30%;
     border: 2px solid brown;
 }
 
 .thirdArticle{
-    height: 100%;
-    width: 33%;
+    height: 95%;
+    width: 30%;
     border: 2px solid green;
 }
 
