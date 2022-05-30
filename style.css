@@ -33,12 +33,64 @@ body{
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+header{
+    height: 10%;
+    width: 100%;
+    border: solid 2px orange;
 }
 
-footer {
+.welcomingHeader{
+    height: 10%;
+    width: 100%;
+    border: 2px solid brown;
+}
 
+.firstSection{
+    height: 50%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.firstSubSection{
+    height: 100%;
+    width: 50%;
+    border: 2px solid pink;
+}
+
+.secondSubSection{
+    height: 100%;
+    width: 50%;
+    border: 2px solid teal;
+}
+
+.title{
+    height: 10%;
+    width: 10%;
+    border: 2px solid slateblue;
+}
+
+.secondSection{
+    height: 50%;
+    width: 100%;
+    border: 2px solid orchid;
+}
+
+.firstArticle{
+    height: 100%;
+    width: 33.33%;
+    border: 2px solid blue;
+}
+
+.secondArticle{
+    height: 100%;
+    width: 33.33%;
+    border: 2px solid brown;
+}
+
+.thirdArticle{
+    height: 100%;
+    width: 33.33%;
+    border: 2px solid green;
 }
 
 /******************************************
