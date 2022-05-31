@@ -37,18 +37,24 @@ header{
     height: 10%;
     width: 100%;
     border: solid 2px orange;
+    display: float;
+    flex-direction: row;
 }
 
 .welcomingHeader{
     height: 10%;
     width: 100%;
     border: 2px solid brown;
+    display: flex;
+    flex-direction: row;
 }
 
 .firstSection{
     height: 50%;
     width: 100%;
     border: 2px solid black;
+    display: flex;
+    flex-direction: row;
 }
 
 .firstSubSection{
@@ -61,35 +67,65 @@ header{
     height: 100%;
     width: 50%;
     border: 2px solid teal;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.smallestArticleOne{
+    height: 45%;
+    width: 45%;
+    border: 2px solid grey;
+}
+
+.smallestArticleTwo{
+    height: 45%;
+    width: 45%;
+    border: 2px solid orange;;
+}
+
+.smallestArticleThree{
+    height: 45%;
+    width: 45%;
+    border: 2px solid blueviolet;
+}
+
+.smallestArticleFour{
+    height: 45%;
+    width: 45%;
+    border: 2px solid darkgreen;
 }
 
 .title{
     height: 10%;
     width: 10%;
     border: 2px solid slateblue;
+    display: flex;
+    flex-direction: row;
 }
 
 .secondSection{
     height: 50%;
     width: 100%;
     border: 2px solid orchid;
+    display: flex;
+    flex-direction: row;
 }
 
 .firstArticle{
     height: 100%;
-    width: 33.33%;
+    width: 33%;
     border: 2px solid blue;
 }
 
 .secondArticle{
     height: 100%;
-    width: 33.33%;
+    width: 33%;
     border: 2px solid brown;
 }
 
 .thirdArticle{
     height: 100%;
-    width: 33.33%;
+    width: 33%;
     border: 2px solid green;
 }
 
