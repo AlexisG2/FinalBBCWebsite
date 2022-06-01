@@ -47,6 +47,8 @@ header{
     border: 2px solid brown;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .firstSection{
@@ -61,6 +63,10 @@ header{
     height: 100%;
     width: 50%;
     border: 2px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .secondSubSection{
@@ -72,27 +78,47 @@ header{
 }
 
 .smallestArticleOne{
-    height: 45%;
-    width: 45%;
+    height: 47%;
+    width: 47%;
     border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 1%;
 }
 
 .smallestArticleTwo{
-    height: 45%;
-    width: 45%;
-    border: 2px solid orange;;
+    height: 47%;
+    width: 47%;
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 1%;
 }
 
 .smallestArticleThree{
-    height: 45%;
-    width: 45%;
+    height: 47%;
+    width: 47%;
     border: 2px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 1%;
 }
 
 .smallestArticleFour{
-    height: 45%;
-    width: 45%;
+    height: 47%;
+    width: 47%;
     border: 2px solid darkgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 1%;
 }
 
 .title{
@@ -101,6 +127,7 @@ header{
     border: 2px solid slateblue;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .secondSection{
@@ -109,24 +136,40 @@ header{
     border: 2px solid orchid;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .firstArticle{
     height: 95%;
     width: 30%;
     border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 1%;
 }
 
 .secondArticle{
     height: 95%;
     width: 30%;
     border: 2px solid brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 1%;
 }
 
 .thirdArticle{
     height: 95%;
     width: 30%;
     border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 1%;
 }
 
 /******************************************
